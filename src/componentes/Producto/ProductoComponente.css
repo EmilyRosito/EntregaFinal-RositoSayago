@@ -1,0 +1,25 @@
+/* ProductosComponentes.css */
+
+/* Estilos para cada card de producto */
+
+
+/* Selector de atributos para imágenes con src y alt */
+div img[src][alt]:not([alt="Logo"]) {
+    max-width: 50%; /* Esto asegura que la imagen no sea más ancha que el div */
+    height: auto; /* Esto mantiene la proporción de la imagen */
+  }
+article h4 {
+  margin-top: 0;
+}
+
+article img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+article p {
+  margin: 0;
+}
+

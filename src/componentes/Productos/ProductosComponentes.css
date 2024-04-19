@@ -1,0 +1,28 @@
+/* ProductosComponentes.css */
+
+/* Estilos para cada card de producto */
+article {
+    display:inline-block;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+article h4 {
+  margin-top: 0;
+}
+
+article img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+article p {
+  margin: 0;
+}
+
